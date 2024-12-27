@@ -1,0 +1,1 @@
+python -m flask --app .\src\hello.py run para correr el programa
