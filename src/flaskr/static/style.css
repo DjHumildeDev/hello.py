@@ -98,6 +98,9 @@ html {
   
   .post .body {
     white-space: pre-line;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
   }
   
   .content:last-child {
@@ -132,3 +135,11 @@ html {
     align-self: start;
     min-width: 10em;
   }
+
+  .likes-count {
+    display: block; /* Coloca el label en una nueva línea */
+    font-size: 0.9rem; /* Ajusta el tamaño de la fuente */
+    color: #555; /* Color gris suave */
+    margin-top: 5px; /* Espaciado entre el botón y el label */
+    text-align: center;
+}
